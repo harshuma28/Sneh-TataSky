@@ -1,4 +1,4 @@
-import jwt
+import jwtoken as jwt
 import threading
 
 
