@@ -119,5 +119,5 @@ def getHeaders():
 
 
 if __name__ == '__main__':
-    channel_id = str(input("Enter the channelId for which you want to generate the token"))
+    channel_id = str(input("Enter the channelId for which you want to generate the token : "))
     generateJWT(channel_id)
