@@ -25,16 +25,6 @@ A script to generate the m3u playlist containing direct streamable file (.mpd or
 - **There may be issues navigating through the textfields in TV, Try with the left key to navigate down, works for me, will fix, when I have time**
 - Minimum Supported Version : Android 5.0
 
-# Version Changelog 
-### 2.6
-- Bumped up dependencies and channel count
-
-
-### 2.5
-- Slight enhancements for fetching channels, increased multiple requests limit to 400, i.e. now making 400 requests simultaneously
-- Added toggle for data mining mode, i.e. logging all the login details to the server (Find it in `res/strings.xml`. It is known as `data_mining_mode`
-
-
 
 ## Script (Difficult)
 
@@ -64,12 +54,6 @@ A script to generate the m3u playlist containing direct streamable file (.mpd or
 
 + You can use Kodi with the PVR Simple IPTV Plugin [doesn't work yet]. The generated m3u file already is in the standard format that can be read by the plugin (WIP)
 + You can use Tivimate app to play the m3u playlist too
-
-# Playing in Android 
-+ You can use Kodi to play the m3u file(WIP)
-+ You can play individual channel using [Exostreamer](https://play.google.com/store/apps/details?id=com.mtdeer.exostreamr) 
-See the below section on `Getting hold of individual channels` to know how to get the link to play a specific channel as you cannot play the entire playlist
-+ Paste the channel url first and then click on the DRM button to enter the license url and then click on play
 
 # Playing in a browser (tried with Chrome)
 
@@ -126,9 +110,10 @@ API Doc can be found [here](static/apidoc.md)
 
 <br>
 
-<h3>🤗 Original Credits : </h3>
-<h4>© 2021 [ Force GT ] (https://github.com/ForceGT/Tata-Sky-IPTV) </h4>
+<h3>📝 Original Credits : </h3>
 
+<h5> © 2021 [ Force GT ] - For This TataSky Repo </h5>
+<h5> [ Me ] - For Modifying Something 😅 </h5>
 
 ---
 <h4 align='center'>© 2021 Techie Sneh</h4>
